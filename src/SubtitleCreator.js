@@ -7,7 +7,6 @@ import satsang from "../src/satsang.mp4";
 import ReactPlayer from "react-player";
 import { Box } from "@mui/material";
 import videosubtitles from "../src/subs/dummySRTFile.srt";
-import videosubtitlesVTT from "../src/subs/dummyVTTFile.vtt";
 
 function SubtitleCreator() {
   const data = subtitles;
