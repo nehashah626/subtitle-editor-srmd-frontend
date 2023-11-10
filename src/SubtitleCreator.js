@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import "react-datetime/css/react-datetime.css";
 import "./SubtitleCreator.css";
 import Timeline from "react-subtitle-editor";
@@ -94,7 +94,7 @@ onPlay={() => {console.log('onPlay')}}
                 tracks: [
                   {
                     kind: "subtitles",
-                    src: videosubtitlesVTT,
+                    src: videosubtitles,
                     srcLang: "English",
                     default: true,
                     // color: "orange",
