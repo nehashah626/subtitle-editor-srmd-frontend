@@ -6,6 +6,11 @@
       "^.+\\.jsx?$": "babel-jest"
     }
   "private": true,
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/core": "^7.0.0",
