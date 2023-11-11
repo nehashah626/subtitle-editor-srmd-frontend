@@ -1,10 +1,6 @@
 {
   "name": "subtitle-creator-app",
   "version": "0.1.0",
-  "jest": {
-    "transform": {
-      "^.+\\.jsx?$": "babel-jest"
-    }
   "private": true,
   "jest": {
     "transform": {
