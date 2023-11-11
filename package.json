@@ -23,11 +23,6 @@
         "presets": ["@babel/preset-env", "@babel/preset-react"]
       }
   },
-    "jest": {
-      "transform": {
-        "^.+\\.jsx?$": "babel-jest"
-      }
-    },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
