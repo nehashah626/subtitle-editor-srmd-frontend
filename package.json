@@ -1,9 +1,16 @@
 {
   "name": "subtitle-creator-app",
   "version": "0.1.0",
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.15",
@@ -18,7 +25,9 @@
     "react-player": "^2.13.0",
     "react-scripts": "5.0.1",
     "react-subtitle-editor": "^0.1.6",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "babel-jest": "^27.0.0",
+    "jest": "^27.0.0",
   },
   "scripts": {
     "start": "react-scripts start",
