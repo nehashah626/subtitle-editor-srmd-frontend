@@ -18,8 +18,16 @@
     "react-player": "^2.13.0",
     "react-scripts": "5.0.1",
     "react-subtitle-editor": "^0.1.6",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "babel": {
+        "presets": ["@babel/preset-env", "@babel/preset-react"]
+      }
   },
+    "jest": {
+      "transform": {
+        "^.+\\.jsx?$": "babel-jest"
+      }
+    },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
